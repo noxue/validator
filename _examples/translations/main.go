@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-playground/locales/en"
-	ut "github.com/go-playground/universal-translator"
-	"gopkg.in/go-playground/validator.v9"
-	en_translations "gopkg.in/go-playground/validator.v9/translations/en"
+	"github.com/noxue/locales/en"
+	ut "github.com/noxue/universal-translator"
+	"github.com/noxue/validator"
+	en_translations "github.com/noxue/validator/translations/en"
 )
 
 // User contains user information

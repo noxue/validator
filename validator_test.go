@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-playground/locales/en"
-	"github.com/go-playground/locales/fr"
-	"github.com/go-playground/locales/nl"
-	ut "github.com/go-playground/universal-translator"
+	"github.com/noxue/locales/en"
+	"github.com/noxue/locales/fr"
+	"github.com/noxue/locales/nl"
+	ut "github.com/noxue/universal-translator"
 	. "gopkg.in/go-playground/assert.v1"
 )
 
@@ -6762,7 +6762,7 @@ func TestMutipleRecursiveExtractStructCache(t *testing.T) {
 	close(proceed)
 }
 
-// Thanks @robbrockbank, see https://github.com/go-playground/validator/issues/249
+// Thanks @robbrockbank, see https://github.com/noxue/validator/issues/249
 func TestPointerAndOmitEmpty(t *testing.T) {
 
 	validate := New()

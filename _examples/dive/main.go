@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"gopkg.in/go-playground/validator.v9"
+	"github.com/noxue/validator"
 )
 
 // Test ...

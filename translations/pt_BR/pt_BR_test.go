@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	brazilian_portuguese "github.com/go-playground/locales/pt_BR"
-	ut "github.com/go-playground/universal-translator"
-	"github.com/go-playground/validator"
+	brazilian_portuguese "github.com/noxue/locales/pt_BR"
+	ut "github.com/noxue/universal-translator"
+	"github.com/noxue/validator"
 	. "gopkg.in/go-playground/assert.v1"
 )
 

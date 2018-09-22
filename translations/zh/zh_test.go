@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	zhongwen "github.com/go-playground/locales/zh"
-	"github.com/go-playground/universal-translator"
+	zhongwen "github.com/noxue/locales/zh"
+	"github.com/noxue/universal-translator"
 	. "gopkg.in/go-playground/assert.v1"
-	"gopkg.in/go-playground/validator.v9"
+	"github.com/noxue/validator"
 )
 
 func TestTranslations(t *testing.T) {
